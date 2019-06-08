@@ -74,11 +74,11 @@ ${name};
   name: () => 'package.json',
   content: ({ moduleName, platforms, githubAccount, authorName, authorEmail, license }) => {
     let dependencies = `
-    "react": "16.2.0",
-    "react-native": "^0.52.0"`;
+    "react": "^16.5.1",
+    "react-native": "^0.57.2"`;
     if (platforms.indexOf('windows') >= 0) {
       dependencies += `,
-    "react-native-windows": "0.52.0"
+    "react-native-windows": "^0.57.2"
 `;
     }
     return `{

@@ -52,6 +52,9 @@ Options:
   --author-email <email>                    The author's email (Default: `yourname@email.com`)
   --license <license>                       The license type of this library (Default: `Apache-2.0`)
   --generate-example <shouldGenerate>       Will generate a RN example project and link the new library to it (Default: `false`)
+
+例如：react-native-create-library --package-identifier cn.cnlee.commons --platforms android,ios --github-account lijian0103 --author-name lijian --author-email lijian0103@hotmail.com --license MIT
+
 ```
 
 ## Programmatic usage
